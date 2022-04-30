@@ -11,6 +11,11 @@
 		17E15602281DA17E00847EB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E15601281DA17E00847EB4 /* ContentView.swift */; };
 		17E15604281DA17F00847EB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E15603281DA17F00847EB4 /* Assets.xcassets */; };
 		17E15607281DA17F00847EB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E15606281DA17F00847EB4 /* Preview Assets.xcassets */; };
+		17E1560E281DA28C00847EB4 /* ColorChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E1560D281DA28C00847EB4 /* ColorChoice.swift */; };
+		17E15610281DA2CA00847EB4 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E1560F281DA2CA00847EB4 /* Score.swift */; };
+		17E15612281DA30E00847EB4 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E15611281DA30E00847EB4 /* ViewModel.swift */; };
+		17E15614281DA31C00847EB4 /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E15613281DA31C00847EB4 /* FileManager-DocumentsDirectory.swift */; };
+		17E15616281DA3D300847EB4 /* ScoreRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E15615281DA3D300847EB4 /* ScoreRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		17E15601281DA17E00847EB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		17E15603281DA17F00847EB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17E15606281DA17F00847EB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17E1560D281DA28C00847EB4 /* ColorChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChoice.swift; sourceTree = "<group>"; };
+		17E1560F281DA2CA00847EB4 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		17E15611281DA30E00847EB4 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		17E15613281DA31C00847EB4 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		17E15615281DA3D300847EB4 /* ScoreRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				17E155FF281DA17E00847EB4 /* SimpleScoresApp.swift */,
 				17E15601281DA17E00847EB4 /* ContentView.swift */,
+				17E15615281DA3D300847EB4 /* ScoreRow.swift */,
+				17E1560D281DA28C00847EB4 /* ColorChoice.swift */,
+				17E1560F281DA2CA00847EB4 /* Score.swift */,
+				17E15611281DA30E00847EB4 /* ViewModel.swift */,
+				17E15613281DA31C00847EB4 /* FileManager-DocumentsDirectory.swift */,
 				17E15603281DA17F00847EB4 /* Assets.xcassets */,
 				17E15605281DA17F00847EB4 /* Preview Content */,
 			);
@@ -137,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17E15614281DA31C00847EB4 /* FileManager-DocumentsDirectory.swift in Sources */,
+				17E15612281DA30E00847EB4 /* ViewModel.swift in Sources */,
 				17E15602281DA17E00847EB4 /* ContentView.swift in Sources */,
+				17E15616281DA3D300847EB4 /* ScoreRow.swift in Sources */,
+				17E1560E281DA28C00847EB4 /* ColorChoice.swift in Sources */,
+				17E15610281DA2CA00847EB4 /* Score.swift in Sources */,
 				17E15600281DA17E00847EB4 /* SimpleScoresApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

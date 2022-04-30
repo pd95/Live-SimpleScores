@@ -9,9 +9,21 @@ import SwiftUI
 
 @main
 struct SimpleScoresApp: App {
+    @StateObject private var model = ViewModel()
+    @Environment(\.scenePhase) var scenePhase
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ContentView(model: model)
+            }
+            .navigationViewStyle(.stack)
+            .preferredColorScheme(.dark)
+        }
+        .onChange(of: scenePhase) { newPhase in
+            if newPhase == .background {
+                model.save()
+            }
         }
     }
 }
